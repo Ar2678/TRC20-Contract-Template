@@ -16,7 +16,7 @@ contract Token is TRC20, TRC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public TRC20Detailed("100DOG", "100D", 18) {
-        _mint(msg.sender, 100 * (10 ** uint256(decimals())));
+    constructor () public TRC20Detailed("100000MetaLizer", "100000Metal", 18) {
+        _mint(msg.sender, 100000 * (10000 ** uint256(decimals())));
     }
 }
